@@ -1,11 +1,11 @@
 package com.oblador.keychain.cipherStorage;
 
-import android.annotation.TargetApi;
+import androidx.annotation.TargetApi;
 import android.os.Build;
 import android.security.keystore.KeyGenParameterSpec;
 import android.security.keystore.KeyInfo;
 import android.security.keystore.KeyProperties;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.util.Log;
 
 import com.oblador.keychain.SecurityLevel;
